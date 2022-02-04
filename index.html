@@ -1,0 +1,141 @@
+<html>
+ <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+<body>
+  <div id="container">
+    <header class='header'>
+      <h1 id='title'>My Survey Form</h1> 
+    <p id='description'>I'll be very happy if you join my survey</p></header>
+  
+  <form action="" id='survey-form' >
+    <div class='survey-form-div' id='survey-form-div1'>
+      <label for="name" 
+             id='name-label'>Name
+      </label></br>
+      <input type="text" 
+             id='name' 
+             name='name' 
+             required 
+             placeholder='Enter your name'></br></br>
+      <label for="email" 
+             id='email-label'>E-Mail
+      </label></br>
+      <input type="email" 
+             id='email' 
+             name= 'email' 
+             required 
+             placeholder='Enter your E-Mail'></br></br>
+      <label for="number" 
+             id='number-label'>Age<span class="clue">(optional)</span>
+      </label></br>
+      <input type="number" 
+             id='number' 
+             name='number' 
+             required 
+             placeholder='Age' 
+             min='18' max='75'>
+    </div> </br></br>
+    <div class='survey-form-div' id='survey-form-div2'>
+      <label for="dropdown" id='dropdown-label'>Choose the continent you live in</label> </br>
+      <select name="dropdown" 
+              id="dropdown"
+              >
+        <option hidden>Select current continent</option>
+        <option value="Nort America">Nort America</option>
+        <option value="South America">South America</option>
+        <option value="Africa">Africa</option>
+        <option value="Europa">Europa</option>
+        <option value="Asia">Asia</option>
+        <option value="Australia">Australia</option>
+        <option value="Antartica">Antartica</option>
+      </select></div>
+    <div class='survey-form-div' id='survey-form-div3'>
+      <p id='p1'>Choose your favourite computer language</p>
+      <input type="radio" 
+             id='html' 
+             name= 'fav_com_lang'
+             value='HTML'
+             class='input-radio'>
+      <label for="html">HTML</label></br>
+      <input type="radio" 
+             id='css' 
+             name='fav_com_lang'
+             value='CSS'
+             class='input-radio'>
+      <label for="css">CSS</label></br>
+      <input type="radio" 
+             id='javascript'
+             name='fav_com_lang'
+             value='JavaScript'
+             class='input-radio'>
+      <label for="javascript">JavaScript
+      </label> </br>
+      <input type="radio" 
+             id='php'  
+             name='fav_com_lang'
+             value='PHP'
+             class='input-radio'>
+      <label for="php">PHP</label>
+    </div>  </br>
+    <div class='survey-form-div' id='survey-form-div4'>
+      <p id='p2'>Choose the Languages that you had learnt</p>
+      <input type="checkbox" 
+             id='html' 
+             name='lang1' 
+             value='HTML'
+             class='input-checkbox'>
+      <label for="html">HTML</label> </br>
+      <input type="checkbox" 
+             id='css'
+             name='lang2'
+             value='CSS'
+             class='input-checkbox'>
+      <label for="css">CSS</label> </br>
+      <input type="checkbox"
+             id='javascript'
+             name='lang3'
+             value='JavaScript'
+             class='input-checkbox'>
+      <label for="javascript">JavaScript
+      </label> </br>
+      <input type="checkbox"
+             id='php'
+             name='lang4'
+             value='PHP'
+             class='input-checkbox'>
+      <label for="php">PHP</label> </br>
+      <input type="checkbox"
+             id='java'
+             name='lang5'
+             value='Java'
+             class='input-checkbox'>
+      <label for="java">Java</label></br>
+      <input type="checkbox"
+             id='python'
+             name='lang6'
+             value='Python'
+             class='input-checkbox'>
+      <label for="python">Python</label> </br>
+      <input type="checkbox"
+             id='c'
+             name='lang7'
+             value='C'
+             class='input-checkbox'>
+      <label for="c">C</label>
+    </div> </br>
+    <div class='survey-form-div' id='survey-form-div5'>
+      <label for="textarea" id='textarea-label'>Any comments or suggestions?</label> </br>
+      <textarea name="textarea"
+                id="textarea" 
+                cols="30" 
+                rows="4"
+                placeholder='Enter comment here...'></textarea>
+    </div> </br>
+    <div class='survey-form-div' id='survey-form-div5'>
+      <input type="submit"
+             value='Submit' class="button">
+    </div>
+  </form>
+    
+  </div>
+</body>
+</html>

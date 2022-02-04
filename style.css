@@ -1,0 +1,146 @@
+html{
+  font-size: 62.5%;
+}
+#container{
+  text-align: center;
+  box-sizing: border-size;
+  width: 100%;
+  padding: 1em 1em 2em 1em;
+  background-color: #87b1b6;
+  background-image: url("https://cdn.pixabay.com/photo/2016/06/20/03/15/pier-1467984_1280.jpg");
+  background-attachment: fixed;
+}
+header{
+  margin: 60px auto 40px;
+}
+h1 {
+  font-size: 45px;
+  font-weight: 800;
+}
+#description{
+  font-size: 20px;
+  font-style: italic;
+  text-shadow: 0 0 9px rgba(0,0,0,0.7);
+}
+#survey-form{
+  border-style: solid;
+  border-width: 3px;
+  border-color: #000;
+  border-radius: 15px;
+  margin:0 25% 0;
+  text-align: left;
+  padding: 2em;
+  background: rgba(211, 127, 145, 0.6 );
+  box-shadow: 0 0 10px 10px rgba(0,0,0,0.2);
+  
+}
+#name-label{
+  font-size: 20px;
+}
+#name{
+  width: 98%;
+  height: 25px;
+  border-radius: 5px;
+  margin-top: 3px;
+  margin-bottom: 6px;
+}
+#email-label{
+  font-size: 20px;
+}
+#email{
+  width: 98%;
+  height: 25px;
+  border-radius: 5px;
+  margin-top: 3px;
+  margin-bottom: 6px;
+}
+#number-label{
+  font-size: 20px;
+}
+#number{
+  width: 98%;
+  height: 25px;
+  border-radius: 5px;
+  margin-top: 3px;
+  margin-bottom: 6px;
+}
+.clue{
+  font-size:15px;
+  margin-left: 3px;
+  
+}
+#survey-form-div1{
+  margin-bottom: 2px;
+}
+#survey-form-div2{
+  margin-bottom: 2px;
+}
+#dropdown-label{
+  font-size: 20px;
+}
+#dropdown{
+  width: 99%;
+  height: 30px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  margin-top: 3px;
+  margin-bottom: 6px;
+}
+#survey-form-div3{
+  margin:2em 0 2em -4px;
+  padding: 0 6px 0;
+}
+
+#p1{
+  font-size:20px;
+  margin: 0;
+}
+
+#survey-form-div4 input,
+#survey-form-div3 input{
+  display: inline-block;
+  margin-right: 0.5rem;
+  margin-top:6px;
+  
+  min-height: 1.6rem;
+  min-width: 1.6rem;
+  
+}
+.button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 99%;
+  cursor: pointer;
+  margin-bottom: 20px;
+  }
+.button:hover{
+  background-color:#007000
+}
+label{
+  font-size: 15px;
+}
+#p2{
+  font-size:20px;
+  margin: 0;
+}
+#textarea-label{
+  font-size: 20px;
+}
+#textarea{
+  width: 99%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  resize: none;
+  margin: 3px 0 6px 0;
+}
